@@ -5,7 +5,7 @@
 #include "stm32f10x.h"
 //=====================================================================
 #include	"systick.h"
-//#include	"EventGUI.h"
+#include	"EventGUI.h"
 //#include	"Mark.h"
 #include	"RGB_strip.h"
 //=====================================================================
