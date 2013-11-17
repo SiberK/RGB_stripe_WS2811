@@ -1,0 +1,191 @@
+Dependencies for Project 'RGB_stripe', Target 'Target F103VE': (DO NOT MODIFY !)
+F (.\user\startup_stm32f10x_ld_vl.s)(0x51C7AF80)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\lst\startup_stm32f10x_ld_vl.lst --xref -o .\obj\startup_stm32f10x_ld_vl.o --depend .\obj\startup_stm32f10x_ld_vl.d)
+F (.\SysTick\stm32f10x_systick.c)(0x4CCCFE66)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\stm32f10x_systick.o --omf_browse .\objve\stm32f10x_systick.crf --depend .\objve\stm32f10x_systick.d)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\SysTick\stm32f10x_systick.h)(0x4CCCFE32)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (.\SysTick\systick.c)(0x4CCE287A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\systick.o --omf_browse .\objve\systick.crf --depend .\objve\systick.d)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\SysTick\systick.h)(0x4DE49B88)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\SysTick\stm32f10x_systick.h)(0x4CCCFE32)
+F (.\USER\SystemInit.c)(0x527CD666)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\systeminit.o --omf_browse .\objve\systeminit.crf --depend .\objve\systeminit.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (.\USER\startup_stm32f10x_hd.s)(0x50FE970B)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\lstve\startup_stm32f10x_hd.lst --xref -o .\objve\startup_stm32f10x_hd.o --depend .\objve\startup_stm32f10x_hd.d)
+F (..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4CBC3900)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\core_cm3.o --omf_browse .\objve\core_cm3.crf --depend .\objve\core_cm3.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x4CBC3904)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\stm32f10x_tim.o --omf_browse .\objve\stm32f10x_tim.crf --depend .\objve\stm32f10x_tim.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (..\..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x4CBC3904)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\misc.o --omf_browse .\objve\misc.crf --depend .\objve\misc.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+F (..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4CBC3904)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\stm32f10x_gpio.o --omf_browse .\objve\stm32f10x_gpio.crf --depend .\objve\stm32f10x_gpio.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4CBC3904)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\stm32f10x_rcc.o --omf_browse .\objve\stm32f10x_rcc.crf --depend .\objve\stm32f10x_rcc.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x4CBC3904)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\stm32f10x_usart.o --omf_browse .\objve\stm32f10x_usart.crf --depend .\objve\stm32f10x_usart.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x4CBC3904)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\stm32f10x_spi.o --omf_browse .\objve\stm32f10x_spi.crf --depend .\objve\stm32f10x_spi.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x4CBC3904)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\stm32f10x_dma.o --omf_browse .\objve\stm32f10x_dma.crf --depend .\objve\stm32f10x_dma.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+F (.\USER\Main.cpp)(0x5287AABB)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\main.o --omf_browse .\objve\main.crf --depend .\objve\main.d)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\SysTick\systick.h)(0x4DE49B88)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\RGB_strip.h)(0x527E1610)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\EventGUI.h)(0x522ECEC9)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\Effect.h)(0x5287AD9A)
+F (.\USER\RGB_strip.cpp)(0x5287AC20)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\rgb_strip.o --omf_browse .\objve\rgb_strip.crf --depend .\objve\rgb_strip.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\RGB_Strip.h)(0x527E1610)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\EventGUI.h)(0x522ECEC9)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\Effect.h)(0x5287AD9A)
+I (D:\Keil\ARM\ARMCC\include\Math.h)(0x51C7B744)
+F (.\USER\Effect.cpp)(0x5287AD9A)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\USER -I.\SysTick -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Libraries\STM32F10x_StdPeriph_Driver\inc-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DBOARD_PORT103V -o .\objve\effect.o --omf_browse .\objve\effect.crf --depend .\objve\effect.d)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4CC31A74)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4CBC3900)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4CBC3900)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\stm32f10x_conf.h)(0x527BA78B)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (D:\WorkOr\ARM\STM32_Projects\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+I (D:\Keil\ARM\ARMCC\include\String.h)(0x51C7B744)
+I (D:\Keil\ARM\ARMCC\include\Math.h)(0x51C7B744)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\Effect.h)(0x5287AD9A)
+I (D:\WorkOr\ARM\STM32_Projects\RGB_stripe_WS2811\USER\EventGUI.h)(0x522ECEC9)
