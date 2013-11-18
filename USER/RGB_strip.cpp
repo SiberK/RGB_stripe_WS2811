@@ -13,7 +13,7 @@
 #define	RCC_APB2Periph_SPI	RCC_APB2Periph_SPI1
 //=========================================================
 #define		TIM_FLASH		50
-#define		TIM_FADE		100
+#define		TIM_FADE		10
 #define		TIM_DIR			1000
 
 #define		SQR(X)		((X)*(X))
@@ -49,8 +49,8 @@ EVENT_TYPE		TStrip::OnEvent(TEvent* Event)
 
  if(!timDir){ timDir = Dir? TIM_DIR	: TIM_DIR/4	; Dir ^= 1	;}
  
-// if(!timFlash){ timFlash = TIM_FLASH	; flConv = 1	;
-//   Effect.Step(Array,CntRGBY,EffItemJump2)				;}
+ if(!timFlash){ timFlash = TIM_FLASH	; flConv = 1	;
+   Effect.Step(Array,CntRGBY,EffItemJump2)				;}
    
  if(!timFade){ timFade = TIM_FADE		; flConv = 1	;
    Effect.Step(Array,CntRGBY,EffItemFade1)				;}   

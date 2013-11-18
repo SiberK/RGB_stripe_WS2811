@@ -4,31 +4,21 @@
 //#define	USE_HSE
 #ifdef	BOARD_PORT103V
 #define	USE_HSE
+#define SYSCLK_FREQ_72MHz  	72000000
+#define	SYSCLK_FREQ			SYSCLK_FREQ_72MHz
 #endif
 
 #ifdef	BOARD_F10xCx 
 #define	USE_HSE
-#define SYSCLK_FREQ_20MHz  20000000
-//#define SYSCLK_FREQ_24MHz  24000000
+#define SYSCLK_FREQ_20MHz  	20000000UL
+//#define SYSCLK_FREQ_24MHz  24000000UL
+#define	SYSCLK_FREQ			SYSCLK_FREQ_20MHz
 #endif
 //=====================================================================================================
-#define SYSCLK_FREQ_72MHz  72000000
-uint32_t SystemCoreClock = SYSCLK_FREQ_72MHz;        /*!< System Clock Frequency (Core Clock) */
+uint32_t SystemCoreClock = SYSCLK_FREQ;        /*!< System Clock Frequency (Core Clock) */
 //=====================================================================================================
 void SystemInit (void)
 {
-#ifdef	BOARD_PORT103V
- SystemCoreClock = SYSCLK_FREQ_72MHz;        /*!< System Clock Frequency (Core Clock) */
-#endif
-#ifdef BOARD_F10xCx 
-#ifdef	SYSCLK_FREQ_24MHz
- SystemCoreClock = SYSCLK_FREQ_24MHz;        /*!< System Clock Frequency (Core Clock) */
-#endif
-#ifdef	SYSCLK_FREQ_20MHz
- SystemCoreClock = SYSCLK_FREQ_20MHz;        /*!< System Clock Frequency (Core Clock) */
-#endif
-#endif
-
  RCC_DeInit()	;/* Reset the RCC clock configuration to the default reset state(for debug purpose) */
 
  FLASH->ACR |= FLASH_ACR_PRFTBE							; /* Enable Prefetch Buffer */

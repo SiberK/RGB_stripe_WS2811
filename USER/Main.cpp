@@ -63,11 +63,7 @@ int		main(void)
 #define	RCC_APB1Periph_TIM_MS 	RCC_APB1Periph_TIM3
 #define	TIM_MS_IRQn				TIM3_IRQn
 #define	TIM_MS_IRQHandler		TIM3_IRQHandler
-#if defined	(STM32F10X_LD_VL) || defined (STM32F10X_MD_VL)
-#define	PRSC_1M					24
-#else
-#define	PRSC_1M					72
-#endif
+#define	PRSC_1M					SystemCoreClock/1000000
 //------------------------------------------------------
 // таймер для милисекундных отсчётов
 void	TIM_MS_Init(void)
