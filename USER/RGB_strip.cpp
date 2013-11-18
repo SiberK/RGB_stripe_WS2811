@@ -49,8 +49,8 @@ EVENT_TYPE		TStrip::OnEvent(TEvent* Event)
 
  if(!timDir){ timDir = Dir? TIM_DIR	: TIM_DIR/4	; Dir ^= 1	;}
  
- if(!timFlash){ timFlash = TIM_FLASH	; flConv = 1	;
-   Effect.Step(Array,CntRGBY,EffItemJump2)				;}
+// if(!timFlash){ timFlash = TIM_FLASH	; flConv = 1	;
+//   Effect.Step(Array,CntRGBY,EffItemJump2)				;}
    
  if(!timFade){ timFade = TIM_FADE		; flConv = 1	;
    Effect.Step(Array,CntRGBY,EffItemFade1)				;}   
@@ -105,7 +105,11 @@ void	TStrip::InitSPI(void)
  SPI_InitStruct->SPI_CPOL 				= SPI_CPOL_High			;/* SPI_CPOL member */
  SPI_InitStruct->SPI_CPHA 				= SPI_CPHA_2Edge		;/* SPI_CPHA member */
  SPI_InitStruct->SPI_NSS 				= SPI_NSS_Soft			;/* SPI_NSS member */
+#ifdef	BOARD_F10xCx
+ SPI_InitStruct->SPI_BaudRatePrescaler 	= SPI_BaudRatePrescaler_8;/*SPI_BaudRatePrescaler member */
+#else
  SPI_InitStruct->SPI_BaudRatePrescaler 	= SPI_BaudRatePrescaler_32;/*SPI_BaudRatePrescaler member */
+#endif
  SPI_InitStruct->SPI_FirstBit 			= SPI_FirstBit_LSB		;/* SPI_FirstBit member */
  SPI_InitStruct->SPI_CRCPolynomial 		= 7						;/* SPI_CRCPolynomial member */
  SPI_Init(SPI_ACC,SPI_InitStruct)	;

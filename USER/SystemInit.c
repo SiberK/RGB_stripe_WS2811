@@ -5,8 +5,13 @@
 #ifdef	BOARD_PORT103V
 #define	USE_HSE
 #endif
+
+#ifdef	BOARD_F10xCx 
+#define	USE_HSE
+#define SYSCLK_FREQ_20MHz  20000000
+//#define SYSCLK_FREQ_24MHz  24000000
+#endif
 //=====================================================================================================
-#define SYSCLK_FREQ_24MHz  24000000
 #define SYSCLK_FREQ_72MHz  72000000
 uint32_t SystemCoreClock = SYSCLK_FREQ_72MHz;        /*!< System Clock Frequency (Core Clock) */
 //=====================================================================================================
@@ -15,9 +20,15 @@ void SystemInit (void)
 #ifdef	BOARD_PORT103V
  SystemCoreClock = SYSCLK_FREQ_72MHz;        /*!< System Clock Frequency (Core Clock) */
 #endif
-#ifdef STM32F10X_MD_VL 
+#ifdef BOARD_F10xCx 
+#ifdef	SYSCLK_FREQ_24MHz
  SystemCoreClock = SYSCLK_FREQ_24MHz;        /*!< System Clock Frequency (Core Clock) */
 #endif
+#ifdef	SYSCLK_FREQ_20MHz
+ SystemCoreClock = SYSCLK_FREQ_20MHz;        /*!< System Clock Frequency (Core Clock) */
+#endif
+#endif
+
  RCC_DeInit()	;/* Reset the RCC clock configuration to the default reset state(for debug purpose) */
 
  FLASH->ACR |= FLASH_ACR_PRFTBE							; /* Enable Prefetch Buffer */
@@ -33,8 +44,10 @@ void SystemInit (void)
  RCC_HSEConfig(RCC_HSE_ON)			;
  
 #ifdef STM32F10X_MD_VL 
- RCC_PREDIV1Config(RCC_PREDIV1_Source_HSE,RCC_PREDIV1_Div2);// for STM32F100C4
- RCC_PLLConfig(RCC_PLLSource_PREDIV1,RCC_PLLMul_6)			;// for STM32F100C4
+// RCC_PREDIV1Config(RCC_PREDIV1_Source_HSE,RCC_PREDIV1_Div2)	;// for STM32F100C4
+// RCC_PLLConfig(RCC_PLLSource_PREDIV1,RCC_PLLMul_6)			;// for STM32F100C4
+ RCC_PREDIV1Config(RCC_PREDIV1_Source_HSE,RCC_PREDIV1_Div1)	;// for STM32F100C4 (in  10MHz)
+ RCC_PLLConfig(RCC_PLLSource_PREDIV1,RCC_PLLMul_2)			;// for STM32F100C4 (out 20MHz)
 #else
 // RCC_PLLConfig(RCC_PLLSource_HSE_Div1,RCC_PLLMul_6)		;// for F_OSC 12MHz
  RCC_PLLConfig(RCC_PLLSource_HSE_Div1,RCC_PLLMul_9) 		;// for F_OSC 8MHz

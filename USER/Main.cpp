@@ -4,7 +4,7 @@
 #include <string.h>
 #include "stm32f10x.h"
 //=====================================================================
-#include	"systick.h"
+//#include	"systick.h"
 #include	"EventGUI.h"
 //#include	"Mark.h"
 #include	"RGB_strip.h"
@@ -30,7 +30,7 @@ void	Init(void)
 #endif
  RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE)	;
 
- delay_init()				;
+// delay_init()				;
 
  Strip.Init()				;
  
@@ -42,8 +42,8 @@ int		main(void)
 {TEvent*			Event = &FEvent	;
 // EVENT_TYPE			prevType = 0	;
 
- if(SysTick_Config(2400))// Setup SysTick Timer for 0.1 msec interrupts  
-   while (1)			;// Capture error
+// if(SysTick_Config(SystemCoreClock/10000))// Setup SysTick Timer for 0.1 msec interrupts  
+//   while (1)			;// Capture error
  NVIC_PriorityGroupConfig(NVIC_PriorityGroup_3);/*!< 3 bits for pre-emption priority
                                                             1 bits for subpriority */
 

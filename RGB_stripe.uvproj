@@ -349,7 +349,7 @@
             <uSurpInc>0</uSurpInc>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>STM32F10X_MD_VL, USE_STDPERIPH_DRIVER</Define>
+              <Define>STM32F10X_MD_VL BOARD_F10xCx USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
               <IncludePath>.\USER;.\SysTick;..\Libraries\CMSIS\CM3\CoreSupport;..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x;..\Libraries\STM32F10x_StdPeriph_Driver\inc</IncludePath>
             </VariousControls>
