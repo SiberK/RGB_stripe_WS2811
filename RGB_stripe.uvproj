@@ -390,22 +390,12 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>Startup</GroupName>
           <Files>
             <File>
               <FileName>startup_stm32f10x_ld_vl.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\user\startup_stm32f10x_ld_vl.s</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_systick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\SysTick\stm32f10x_systick.c</FilePath>
-            </File>
-            <File>
-              <FileName>systick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\SysTick\systick.c</FilePath>
             </File>
             <File>
               <FileName>SystemInit.c</FileName>
@@ -905,7 +895,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>Startup</GroupName>
           <Files>
             <File>
               <FileName>startup_stm32f10x_ld_vl.s</FileName>
@@ -946,16 +936,6 @@
                   </Aads>
                 </FileArmAds>
               </FileOption>
-            </File>
-            <File>
-              <FileName>stm32f10x_systick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\SysTick\stm32f10x_systick.c</FilePath>
-            </File>
-            <File>
-              <FileName>systick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\SysTick\systick.c</FilePath>
             </File>
             <File>
               <FileName>SystemInit.c</FileName>
